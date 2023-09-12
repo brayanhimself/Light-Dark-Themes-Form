@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Dark&Light Login </title>
+  <style ></style>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main id="container">
+    <form id="login_form">
+
+      <div id="form_header">
+        <h1>Login</h1>
+        <i id="mode_icon" class="fa-sharp fa-solid fa-moon"></i>
+      </div>
+
+      <div id="social_media">
+        <a href="">
+          <img src="img\icons8-facebook-48.png" alt="facebook_icon">
+        </a>
+
+        <a href="">
+          <img src="img\icons8-google-logo-48.png" alt="google_icon">
+        </a>
+
+        <a href="">
+          <img src="img\icons8-github-48.png" alt="github_icon">
+        </a>
+      </div>
+
+      <div id="inputs">
+        <div class="input-box">
+          <label for="name">
+            Name
+            <div class="input-field">
+              <i class="fa-solid fa-users"></i>
+              <input type="text" id="name" name="name">
+            </div>
+          </label>
+        </div>
+
+        <div class="input-box">
+          <label for="email">
+            E-mail
+            <div class="input-field">
+              <i class="fa-solid fa-square-envelope"></i>
+              <input type="text" id="email" name="email">
+            </div>
+          </label>
+        </div>
+
+        <div class="input-box">
+          <label for="password">
+            Password
+            <div class="input-field">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" id="password" name="password">
+            </div>
+          </label>
+
+          <div id="forgot_password">
+            <a href="#">
+              Forgot your forgot_password?
+            </a>
+          </div>
+
+        </div>
+        
+        <div>
+          <button type="submit" id="login_button">
+            Login
+          </button>
+        </div>
+
+      </div>
+    </form>
+  </main>
+</body>
+</html>
